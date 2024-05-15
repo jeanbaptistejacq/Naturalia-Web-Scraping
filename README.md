@@ -2,22 +2,24 @@
 ![store-6140c4a457aa04 78867185](https://github.com/jeanbaptistejacq/Naturalia-Web-Scraping/assets/80902643/036d6043-4d6b-487d-acc3-06a0effba66a)
 <br/>
 <br/>
-We are using Python to scrap a Naturalia product page. The aim is to track the daily price of that product in a csv file. We are indeed creating a function to append the daily prices into a csv file.
+We are using Python to scrap a Naturalia product page. The aim is to track the daily price of that product in a csv file. We are indeed creating a function to append the daily prices into this csv file.
 
 ## Content
 
 [1. Getting Started](#getting-started)  
 &emsp;[1.1 Requirements](#requirements)  
-[2. Download and Installation](#download-and-installation)  
-[3. Data Source](#data-source)  
-[4. Data Exploration Process](#data-exploration-process)  
+[2. Process of Web Scraping](#process-of-web-scraping)  
+[3. Repository Content](#repository-content)  
+[4. Function](#function)  
 [5. License](#license)  
 
 ## Getting Started
 
-Web scraping is a technique to automatically access and extract large amounts of information from a website.
 
-In this project we are going to use Naturalia product (Bottle of water) search result link as the source of our raw data [link](https://bio.naturalia.fr/products/MPX_2138023/details).
+We are going to use Naturalia product (5L Bottle of water) search result link as the source of our raw data [link](https://bio.naturalia.fr/products/MPX_2138023/details).
+<br/>
+<br/>
+<img width="941" alt="Capturescrappp" src="https://github.com/jeanbaptistejacq/Naturalia-Web-Scraping/assets/80902643/deb52697-4f98-4e10-a45e-cfdbd3ea1866">
 ### Requirements
 
 1. Python 3.6+
@@ -27,29 +29,28 @@ In this project we are going to use Naturalia product (Bottle of water) search r
 5. the user-agent of your browser. To get the user-agent, just search for "my user agent" on Google and copy the user-agent string.
 6. product search url from Naturalia
 
-## Download and Installation
+## Process of Web Scraping
 
-1. You can clone this repository or simply download the .zip file by clicking on 'Code' -> 'Download ZIP' at <https://github.com/jeanbaptistejacq/COVID-19-SQL-Data-Exploration>.
+1. Importing the required libraries
+2. Specifying the URL containing the dataset and passing it to **`requests.get()`** to get the HTML content of the page.
+3. Using BeautifulSoup to parse the HTML content
+4. Extracting the required information from the data
+5. Saving the pandas dataframe as a CSV file called **`NaturaliaScraperDataset.csv`**
 
-2. Once you have all the files of this project, you can find the dataset in different tables in excel files in the 'tables' folder. They need to be imported into a new database or an existing one so the queries can be executed against them.
+## Repository Content
 
-3. Open your SQL DB Manager, create a new database or use an existing one to import the excel files into tables. The steps may vary depending on the DB manager you are using. Here is a general approach: In your DB manager, locate the option to import data from a file or external source ->
-Select the Excel files one by one and follow the prompts to specify the target table and mapping of columns ->
-Verify that the data has been imported successfully by checking the table contents.
+1. It contains a jupyter notebook file **`Naturalia-scraper.ipynb`** which contains the final codes to be used in the project.
+    * function to Extract Product Title, Product Price and Timestamp
+    * function to Send yourself an email when the price hits below a certain level
 
-4. The queries I wrote for this project can be found in the 'queries' folder. You can open the file directly to run them or create new query windows to copy/paste them into the editor.  
-
-5. Execute the query you want to retrieve the desired results.  
-
-**Note:** Please ensure you have a valid database connection established in your DB manager before executing the queries. Adjust the queries if needed based on the structure of the imported tables.
-
-## Data Source
+2. It contains a csv file **`NaturaliaScraperDataset.csv`** which contains the final data extracted from the website.
 
 
+## Function
 
-## Data Exploration Process
+Function to append daily prices into the CSV file :
 
-
+<img width="391" alt="Capturescrapp2" src="https://github.com/jeanbaptistejacq/Naturalia-Web-Scraping/assets/80902643/ddc2be5c-eb63-4fda-9bfe-5b087766ef2b">
 
 
 ## License
