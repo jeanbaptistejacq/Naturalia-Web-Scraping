@@ -50,7 +50,7 @@ We are going to use Naturalia product (5L Bottle of water) search result link as
 
 Function to append daily prices into the CSV file :
 
-<img width="391" alt="Capturescrapp2" src="https://github.com/jeanbaptistejacq/Naturalia-Web-Scraping/assets/80902643/ddc2be5c-eb63-4fda-9bfe-5b087766ef2b">
+<img width="800" alt="Capturescrapp2" src="https://github.com/jeanbaptistejacq/Naturalia-Web-Scraping/assets/80902643/ddc2be5c-eb63-4fda-9bfe-5b087766ef2b">
 
 
 ## License
