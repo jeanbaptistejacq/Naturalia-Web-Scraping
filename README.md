@@ -16,7 +16,7 @@ We are using Python to scrap a Naturalia product page. The aim is to track the d
 ## Getting Started
 
 
-We are going to use Naturalia product (5L Bottle of water) search result link as the source of our raw data [link](https://bio.naturalia.fr/products/MPX_2138023/details).
+We are going to use Naturalia product (5L bottle of water) search result link as the source of our raw data [link](https://bio.naturalia.fr/products/MPX_2138023/details).
 <br/>
 <br/>
 <img width="941" alt="Capturescrappp" src="https://github.com/jeanbaptistejacq/Naturalia-Web-Scraping/assets/80902643/deb52697-4f98-4e10-a45e-cfdbd3ea1866">
@@ -39,11 +39,11 @@ We are going to use Naturalia product (5L Bottle of water) search result link as
 
 ## Repository Content
 
-1. It contains a jupyter notebook file **`Naturalia-scraper.ipynb`** which contains the final codes to be used in the project.
-    * function to Extract Product Title, Product Price and Timestamp
-    * function to Send yourself an email when the price hits below a certain level
+1. It contains a jupyter notebook file **`Naturalia-scraper.ipynb`** with inside the final codes to be used in the project.
+    * function to extract Product Title, Product Price and Timestamp
+    * function to send yourself an email when the price hits below a certain level
 
-2. It contains a csv file **`NaturaliaScraperDataset.csv`** which contains the final data extracted from the website.
+2. It contains a CSV file **`NaturaliaScraperDataset.csv`** which contains the final data extracted from the website.
 
 
 ## Function
