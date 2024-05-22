@@ -43,7 +43,7 @@ We are going to use Naturalia product (5L bottle of water) search result link as
     * function to extract Product Title, Product Price and Timestamp
     * function to send yourself an email when the price hits below a certain level
 
-2. It contains a CSV file **`NaturaliaScraperDataset.csv`** which contains the final data extracted from the website.
+2. It contains a CSV file **`NaturaliaScraperDataset.csv`** with inside the final data extracted from the website.
 
 
 ## Function
