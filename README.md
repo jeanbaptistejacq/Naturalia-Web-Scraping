@@ -2,7 +2,7 @@
 ![store-6140c4a457aa04 78867185](https://github.com/jeanbaptistejacq/Naturalia-Web-Scraping/assets/80902643/036d6043-4d6b-487d-acc3-06a0effba66a)
 <br/>
 <br/>
-We are using Python to scrap a Naturalia product page. The aim is to track the daily price of that product in a CSV file. We are indeed creating a function to append the daily prices into this CSV file.
+We are using Python to scrape a product page from Naturalia. The goal is to track the product's daily price and store this information in a CSV file. To achieve this, we are creating a function that appends the daily prices to the CSV file.
 
 ## Content
 
