@@ -32,7 +32,7 @@ We are going to use Naturalia product (5L bottle of water) search result link as
 ## Process of Web Scraping
 
 1. Import the required libraries
-2. Specify the URL containing the dataset and passing it to **`requests.get()`** to get the HTML content of the page.
+2. Specify the URL containing the dataset and pass it to **`requests.get()`** to get the HTML content of the page.
 3. Use BeautifulSoup to parse the HTML content
 4. Extract the required information from the data
 5. Save the Pandas dataframe as a CSV file called **`NaturaliaScraperDataset.csv`**
