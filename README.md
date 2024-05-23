@@ -2,7 +2,7 @@
 ![store-6140c4a457aa04 78867185](https://github.com/jeanbaptistejacq/Naturalia-Web-Scraping/assets/80902643/036d6043-4d6b-487d-acc3-06a0effba66a)
 <br/>
 <br/>
-We are using Python to scrap a Naturalia product page. The aim is to track the daily price of that product in a csv file. We are indeed creating a function to append the daily prices into this csv file.
+We are using Python to scrap a Naturalia product page. The aim is to track the daily price of that product in a CSV file. We are indeed creating a function to append the daily prices into this CSV file.
 
 ## Content
 
@@ -23,23 +23,23 @@ We are going to use Naturalia product (5L bottle of water) search result link as
 ### Requirements
 
 1. Python 3.6+
-2. install BeautifulSoup **```pip install beautifulsoup4```**
-3. install Requests **```pip install requests```**
-4. install Pandas **```pip install pandas```**
-5. the user-agent of your browser. To get the user-agent, just search for "my user agent" on Google and copy the user-agent string.
-6. product search url from Naturalia
+2. Install BeautifulSoup **```pip install beautifulsoup4```**
+3. Install Requests **```pip install requests```**
+4. Install Pandas **```pip install pandas```**
+5. The user-agent of your browser. To get the user-agent, just search for "my user agent" on Google and copy the user-agent string.
+6. Product search url from Naturalia
 
 ## Process of Web Scraping
 
-1. Importing the required libraries
-2. Specifying the URL containing the dataset and passing it to **`requests.get()`** to get the HTML content of the page.
-3. Using BeautifulSoup to parse the HTML content
-4. Extracting the required information from the data
-5. Saving the pandas dataframe as a CSV file called **`NaturaliaScraperDataset.csv`**
+1. Import the required libraries
+2. Specify the URL containing the dataset and passing it to **`requests.get()`** to get the HTML content of the page.
+3. Use BeautifulSoup to parse the HTML content
+4. Extract the required information from the data
+5. Save the Pandas dataframe as a CSV file called **`NaturaliaScraperDataset.csv`**
 
 ## Repository Content
 
-1. It contains a jupyter notebook file **`Naturalia-scraper.ipynb`** with inside the final codes to be used in the project.
+1. It contains a Jupyter notebook file **`Naturalia-scraper.ipynb`** with inside the final codes to be used in the project.
     * function to extract Product Title, Product Price and Timestamp
     * function to send yourself an email when the price hits below a certain level
 
