@@ -39,7 +39,7 @@ We are going to use Naturalia product (5L bottle of water) search result link as
 
 ## Repository Content
 
-1. It contains a Jupyter notebook file **`Naturalia-scraper.ipynb`** with inside the final codes to be used in the project.
+1. It contains a Jupyter notebook file **`Naturalia-scraper.ipynb`** with inside the final codes to be used in the project :
     * function to extract Product Title, Product Price and Timestamp
     * function to send yourself an email when the price hits below a certain level
 
